@@ -52,6 +52,10 @@ body {
     align-content: flex-start;
 }
 
+.f-column{
+    flex-direction: column;
+}
+
 /* position */
 
 .p-absolute {
