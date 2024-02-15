@@ -16,7 +16,9 @@ li {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2.84em;
+    margin-top: 70px;
+    font-weight: 900;
     
 }
 
@@ -30,9 +32,27 @@ h1 {
     padding: 5px;
     
 }
+/* cursor button header */
+.btn-hd:hover {
+    cursor: pointer;
 
+}
+
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 /* header */
+
+nav ul {
+    display: flex;
+    font-size: 10px;
+    margin: 20px
+}
+
 header {
+    height: 55px;
     width: 100%;
     position: relative;
     left: 0;
@@ -42,33 +62,25 @@ header {
 
 }
 
-header .left ul {
-    display: flex;
-    font-size: 10px;
-    margin: 20px
-}
 
-header .left li {
-    margin: 0px 10px;
    
 
-}
-
-
-header .right ul {
-    display: flex;
-    font-size: 10px;
-    margin: 20px;
-}
-
-header .right li {
+header li {
     margin: 0px 10px;
+    font-size: 12px;
+
 }
+
+
  .btn-hd {
     background-color: #0061FF;
     color: white;
-    padding: 3px;
+    padding: 4px 10px;
  }
+
+#left img{
+    width: 20%;
+}
 /* hero */
 #hero {
     position: relative;
@@ -121,7 +133,7 @@ main h4{
 #hero {
     
     background-color: #B4D0E7;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 #section-b{
