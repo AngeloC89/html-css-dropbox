@@ -307,24 +307,36 @@ input[type=radio]#blue {
     background-color: #B4D0E7;
 }
 
+#section-f{
+    
+}
 
 #section-f img {
     width: 100px;
-    width: calc(100% / 4);
+    
 }
 
-.left-f{
+#section-f div{
+    
+}
 
+.left-f img{
+    width: 100%;
 }
 
 .center-f{
 
 }
 
-.right-f{
+.right-f img{
+    width: 100%;
 
 }
 
+.img-f {
+    width: calc(100% / 2);
+    
+}
 /* footer */
 footer {
     background-color: black;
