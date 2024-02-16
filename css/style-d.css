@@ -21,6 +21,10 @@ body {
 .debug {
     border: 1px solid red;
 }
+
+.padding-20{
+    padding: 20px;
+}
 /* flex */
 
 .d-flex {

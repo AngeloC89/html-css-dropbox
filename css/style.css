@@ -4,7 +4,7 @@ li {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1800px;
     width: 100%;
     margin: auto;
 
@@ -32,12 +32,19 @@ h1 {
     padding: 5px;
     
 }
+
+.gap-20 {
+    gap: 20px;
+}
+
+.bord{
+    border: 1px solid rgb(218, 217, 217);
+}
 /* cursor button header */
 .btn-hd:hover {
     cursor: pointer;
 
 }
-
 
 li:hover {
     text-decoration: underline;
@@ -62,15 +69,11 @@ header {
 
 }
 
-
-   
-
 header li {
     margin: 0px 10px;
     font-size: 12px;
 
 }
-
 
  .btn-hd {
     background-color: #0061FF;
@@ -114,6 +117,7 @@ main h4{
 .left-a i {
     margin-top: 30px;
     font-size: 30px;
+    color: black;
    
 }
 
@@ -141,6 +145,43 @@ main h4{
     margin-top: 50px;
 }
 
+#section-b h2{
+    padding: 20px 0px 20px 0px;
+    
+}
+ label{
+    padding: 0px;
+}
+
+.box-b{
+    width: calc(100% / 3 - 20);
+       
+}
+
+.box-b h4{
+    text-align: center;
+    border: 1px solid rgb(218, 217, 217);
+}
+
+.left-b li{
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.center-b{
+
+}
+
+.right-b{
+
+}
+
+input[type=radio]#blue {
+    accent-color: rgba(17, 0, 255, 0.648);
+    background:#fcfcfc00;
+}
+
+
 #section-g{
     background-color: #B4D0E7;
 }
@@ -163,8 +204,39 @@ main h4{
 
 }
 
-
-
-
 /* footer */
-footer {}
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0px 60px 0px;
+}
+
+.up{
+    margin: 0 auto;
+
+}
+
+.up li{
+    font-size: 10px;
+    line-height: 27px;
+}
+
+.up h4 {
+    padding-bottom: 15px;
+}
+
+.down a, i {
+    color: #999999;
+    padding-right: 6px;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.down a:hover {
+    text-decoration: underline;
+}
+
+.down p{
+    padding: 50px 0px 30px 0px;
+    
+}
