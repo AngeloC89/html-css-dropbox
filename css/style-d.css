@@ -26,12 +26,21 @@ body {
     padding: 20px;
 }
 
+
 .margin-b-t {
     margin: 0px 0px 40px 0px;
 }
 
+.margin-t80{
+    margin-top: 77px;
+}
 .margin-btm{
     margin-bottom: 58px ;
+}
+
+.font-size{
+    font-size: 15px;
+    padding-top: 10px;
 }
 
 /* flex */
