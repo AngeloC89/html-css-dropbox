@@ -25,6 +25,15 @@ body {
 .padding-20{
     padding: 20px;
 }
+
+.margin-b-t {
+    margin: 0px 0px 40px 0px;
+}
+
+.margin-btm{
+    margin-bottom: 58px ;
+}
+
 /* flex */
 
 .d-flex {
@@ -51,6 +60,13 @@ body {
     align-items: center;
 }
 
+.align-start{
+    align-items: flex-start;
+}
+.align-bas {
+    align-items: baseline;
+}
+
 .align-c-s{
     align-items: flex-start;
     align-content: flex-start;
@@ -68,4 +84,8 @@ body {
 
 .p-relative {
     position: relative;
+}
+
+.text-center {
+    text-align:center
 }

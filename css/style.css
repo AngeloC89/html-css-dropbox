@@ -38,10 +38,7 @@ h1 {
 }
 
 /* cursor button header */
-.btn-hd:hover {
-    cursor: pointer;
 
-}
 
 li:hover {
     text-decoration: underline;
@@ -76,7 +73,14 @@ header li {
     background-color: #0061FF;
     color: white;
     padding: 4px 10px;
+    margin: auto;
+    text-align: center;
  }
+
+ .btn-hd:hover {
+    cursor: pointer;
+
+}
 
 #left img{
     width: 20%;
@@ -146,11 +150,16 @@ main h4{
     padding: 20px 0px 20px 0px;
     
 }
+
+#section-b h6{
+    font-size: 10px;
+}
  
 .bord{
     border: 1px solid rgb(218, 217, 217);
     font-size: 10px;
-    height: 50vh;
+    height: 100%;
+    line-height: 18px;
     
 }
 
@@ -161,7 +170,7 @@ label{
 }
 
 .box-b{
-    width: calc(100% / 3 - 20);
+    width: calc(100% / 3 - 20px);
     
 
        
@@ -172,6 +181,20 @@ label{
     border: 1px solid rgb(218, 217, 217);
     padding: 10px;
     font-weight: 300;
+    
+}
+
+.box-b li{
+    font-size: 12px;
+}
+
+.bl-i{
+    font-size: 13px;
+    color: blue;
+}
+.bord h3 {
+    font-size: 18px ;
+    margin-bottom: 10px;
 }
 
 .left-b li{
