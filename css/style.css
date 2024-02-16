@@ -270,7 +270,7 @@ input[type=radio]#blue {
     align-items: flex-start
     ;
 }
-
+/* section d */
 
 #section-d div div:last-child{
 
@@ -284,6 +284,25 @@ input[type=radio]#blue {
 .img-d img{
     width: 100%;
 }
+
+/* section e */
+#section-e{
+    margin: 40px auto;
+ 
+
+}
+
+#section-e div{
+    width: 70%;
+}
+
+#section-e h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+
 #section-g{
     background-color: #B4D0E7;
 }
