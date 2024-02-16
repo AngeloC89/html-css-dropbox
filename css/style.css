@@ -307,18 +307,24 @@ input[type=radio]#blue {
     background-color: #B4D0E7;
 }
 
+
+/* section f */
 #section-f{
-    margin: auto;
+    
     
 }
 
 #section-f img {
-    width: 100px;
-    display: block;
+    width: 70%;
+    
+    
+    
     
 }
 
-#section-f div{
+#section-f>div{
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
     
 }
 
@@ -327,6 +333,8 @@ input[type=radio]#blue {
 }
 
 .center-f{
+    padding: 50px;
+    background-color: #F5F5F5;
 
 }
 
@@ -336,21 +344,27 @@ input[type=radio]#blue {
 }
 
 .img-f {
-    width: calc(100% / 2);
+    width: calc(100% / 2) ;
     aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    
+}
+.img-f img{
+    filter: invert(100%);
 }
 
 /* color section-f */
+
 .designit{
     background-color:#A2D39B ;
-    border: 6px solid #A2D39B;
+    border: 10px solid #A2D39B;
     
 }
 
 .designit:hover{
-    border: 6px solid #c0e1bb;
+    border: 10px solid #c0e1bb;
 }
 .asu{
     background-color:#61082B ;
