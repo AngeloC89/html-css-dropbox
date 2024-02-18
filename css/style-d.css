@@ -10,8 +10,19 @@ html{
 
 body {
     font-family: "Open Sans", sans-serif;
+   
+}
+p {
+    font-size: 15px;
+}
+.box-b h6{
+    font-size: 45px;
 }
 
+li{
+    font-size: 15px;
+    line-height: 30px;
+}
 /* utility */
 .fixed{
     position: fixed;
@@ -22,20 +33,21 @@ body {
     border: 1px solid red;
 }
 
+.padding-10{
+    padding: 10px;
+}
 .padding-20{
-    padding: 20px;
+    padding: 19.6px;
 }
 
 
 .margin-b-t {
     margin: 0px 0px 40px 0px;
+    line-height: 22px;
 }
 
 .margin-t80{
-    margin-top: 77px;
-}
-.margin-btm{
-    margin-bottom: 58px ;
+    margin: 100px 0px 170px 0px;
 }
 
 .font-size{
@@ -69,6 +81,9 @@ body {
     align-items: center;
 }
 
+.j-c-start{
+    justify-content: flex-start;
+}
 .align-start{
     align-items: flex-start;
 }
