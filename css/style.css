@@ -6,6 +6,7 @@ li {
 html {
     scroll-behavior: smooth;
     transition: 1.5s;
+    scroll-margin-bottom: 100px;
 }
 
 
@@ -60,7 +61,7 @@ header {
     left: 0;
     top: 0;
     background-color: white;
-
+    box-shadow: 0 -6px 100px 5px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -87,11 +88,17 @@ nav ul {
 }
 
 .btn-hd {
-    background-color: #0061FF;
-    color: white;
-    padding: 4px 10px;
-    margin: auto;
+    background-color: #eff0f0;
     text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    padding: 10px 10px;
+
+}
+
+#section-c span.btn-hd a{
+    text-decoration: none;
+    color: black;
 }
 
 .btn-bl:hover {
@@ -205,7 +212,7 @@ main h4 {
 }
 
 #section-b div.btn-bl {
-  margin-bottom: 70px;
+    margin-bottom: 70px;
 }
 
 
@@ -245,10 +252,10 @@ div.margin-t80 h4>i {
     padding-bottom: 50px;
 }
 
-.right-enter{
+.right-enter {
     width: 30%;
     justify-content: flex-end;
-    
+
 }
 
 label {
@@ -264,6 +271,17 @@ label {
 .box-b h4>i {
     font-size: 13px;
 }
+
+.ul-i-blk i {
+    color: black;
+}
+
+.box-b li {
+    margin-left: 20px;
+    text-indent: -10px;
+
+}
+
 
 .box-b>div:first-child {
     text-align: center;
@@ -356,7 +374,9 @@ input[type=radio]#blue {
 }
 
 /* section f */
-#section-f {}
+#section-f {
+    scroll-margin: 60px;
+}
 
 
 
@@ -465,7 +485,9 @@ details {
 
 details p {
     padding: 10px;
+    
 }
+
 
 details>summary {
     font-size: 18px;
@@ -576,6 +598,10 @@ footer {
     padding: 50px 0px 60px 0px;
 }
 
+footer li {
+    position: relative;
+}
+
 footer li:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -610,5 +636,47 @@ i {
 
 .down p {
     padding: 50px 0px 30px 0px;
+
+}
+
+.app-des {
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: none;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    z-index: 2000;
+    box-shadow: 10px 5px 10px rgba(255, 255, 255, 0.5);
+
+
+}
+
+.li-app-des:hover .app-des {
+    display: block;
+
+}
+
+/* second hover ul footer */
+.xdrop {
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: none;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    z-index: 2000;
+    box-shadow: 10px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+
+.li-xdrop:hover .xdrop {
+    display: block;
 
 }
