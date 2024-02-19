@@ -1,0 +1,116 @@
+header {
+    height: 55px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 -6px 100px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+header li {
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+#left img{
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    font-size: 15px;
+    margin: 20px
+}
+
+.btn-bl {
+    background-color: #0061FF;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+    padding: 20px 220px;
+
+}
+
+li{
+    list-style: none;
+}
+
+
+.wrapper{
+    height: 93vh;
+    width: 100%;
+   
+
+}
+.container{
+    max-width: 100%;
+    width: 1800px;
+    margin: 0 auto;
+    
+}
+
+.s-container{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.logo-g img{
+    width: 100%;
+
+}
+
+.logo-g{
+    width: 7%;
+    margin-left: 0px;
+}
+
+main p{
+    font-size: 25px;
+
+}
+
+div.apple, div.google{
+    border: 1px solid black;
+    margin: 20px 0px 20px 0px;
+
+}
+
+
+.left-g{
+    width: 20%;
+
+}
+
+.left-g img{
+    width: 40%;
+}
+
+.right-g{
+    width: 80%;
+
+}
+
+
+.undrl{
+    text-align: center;
+}
+
+footer li{
+    margin: auto 15px;
+    cursor: pointer;
+   
+}
+footer li:hover{
+    text-decoration: underline;
+
+}
+
+footer div.container {
+    margin: 30px auto;
+}
